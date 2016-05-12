@@ -1,5 +1,5 @@
 {
-  "name": "scraperjs-urlcache-redis",
+  "name": "scraper.js-urlcache-redis",
   "version": "0.0.1",
   "description": "a url cache for the scraper.js platform",
   "main": "dist/urlcache-redis.js",
