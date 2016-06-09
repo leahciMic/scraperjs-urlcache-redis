@@ -1,6 +1,6 @@
 {
   "name": "scraper.js-urlcache-redis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a url cache for the scraper.js platform",
   "main": "dist/urlcache-redis.js",
   "scripts": {
@@ -23,6 +23,8 @@
     "eslint": "^2.8.0",
     "eslint-config-airbnb": "^8.0.0",
     "eslint-config-airbnb-base": "^1.0.4",
-    "eslint-plugin-import": "^1.6.1"
+    "eslint-plugin-import": "^1.6.1",
+    "mocha": "^2.4.5",
+    "mock-redis-client": "^0.91.13"
   }
 }

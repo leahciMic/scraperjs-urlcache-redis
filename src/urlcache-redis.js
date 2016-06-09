@@ -21,6 +21,6 @@ export default {
   },
   set(url, value, ttl) {
     // redisCache expects ttl in seconds not ms
-    return redisCache.setAsync(getCacheKey(url), value, ttl / 1000);
+    return redisCache.setAsync(getCacheKey(url), value, { ttl: ttl / 1000 });
   },
 };
